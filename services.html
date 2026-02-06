@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0B2A4A" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <title>Servicios | Auditax</title>
+  <meta name="description" content="Servicios de contabilidad, impuestos, auditoría, nómina y consultoría financiera." />
+
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <div class="topbar" role="banner">
+    <div class="container topbar__inner">
+      <div class="topbar__left">
+        <i class="bi bi-shield-check" aria-hidden="true"></i>
+        <span>Auditax | Auditoria Financiera, Tributaria | Outsourcing | Consultoria de Negocios</span>
+      </div>
+      <div class="topbar__right">
+        <a class="topbar__link" href="recepcion1@auditax.com.py"><i class="bi bi-envelope"></i> recepcion1@auditax.com.py</a>
+        <a class="topbar__link" href="+595 974 960 690"><i class="bi bi-telephone"></i> +595 974 960 690 |691|692</a>
+      </div>
+    </div>
+  </div>
+
+  <header class="header" id="top">
+    <div class="container header__inner">
+      <a class="brand" href="index.html" aria-label="Ir a inicio">
+        <img class="brand__mark" src="Logocompleto.png" alt="Auditax" />
+        <!--
+        <div class="brand__text">
+          <span class="brand__name">Auditax</span>
+          <span class="brand__tag">auditax.com.py</span>
+        </div>
+        -->
+      </a>
+
+      <nav class="nav" aria-label="Navegación principal">
+        <ul class="nav__list">
+          <li><a class="nav__link" href="index.html">Inicio</a></li>
+          <li><a class="nav__link" href="about.html">Sobre Nosotros</a></li>
+          <li><a class="nav__link" href="services.html">Servicios</a></li>
+          <li><a class="nav__link" href="contact.html">Contáctanos</a></li>
+        </ul>
+      </nav>
+
+      <div class="header__actions">
+        <a class="btn btn--ghost" href="contact.html"><i class="bi bi-calendar2-check"></i> Agendar</a>
+        <button class="icon-btn" id="openSidebar" aria-label="Abrir menú" aria-controls="sidebar" aria-expanded="false">
+          <i class="bi bi-list" aria-hidden="true"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <aside class="sidebar" id="sidebar" aria-hidden="true">
+    <div class="sidebar__header">
+      <span class="sidebar__title">Menú</span>
+      <button class="icon-btn icon-btn--small" id="closeSidebar" aria-label="Cerrar menú">
+        <i class="bi bi-x-lg" aria-hidden="true"></i>
+      </button>
+    </div>
+
+    <nav class="sidebar__nav" aria-label="Navegación móvil">
+      <a class="sidebar__link" href="index.html"><i class="bi bi-house"></i><span>Inicio</span></a>
+      <a class="sidebar__link" href="about.html"><i class="bi bi-building"></i><span>Sobre Nosotros</span></a>
+      <a class="sidebar__link" href="services.html"><i class="bi bi-briefcase"></i><span>Servicios</span></a>
+      <a class="sidebar__link" href="contact.html"><i class="bi bi-chat-dots"></i><span>Contáctanos</span></a>
+
+      <div class="sidebar__divider"></div>
+      <a class="sidebar__link sidebar__link--cta" href="#" id="sidebarWhatsApp"><i class="bi bi-whatsapp"></i><span>Escribir por WhatsApp</span></a>
+    </nav>
+
+    <div class="sidebar__meta">
+      <div class="sidebar__meta-row">
+        <i class="bi bi-envelope"></i><a href="mailto:contacto@auditax.com.py">contacto@auditax.com.py</a>
+      </div>
+      <div class="sidebar__meta-row">
+        <i class="bi bi-telephone"></i><a href="tel:+595000000000">+595 000 000 000</a>
+      </div>
+    </div>
+  </aside>
+  <div class="backdrop" id="backdrop" hidden></div>
+
+  <main id="contenido">
+    <section class="page-hero">
+      <div class="container page-hero__grid">
+        <div>
+          <h1>Servicios</h1>
+          <p class="lead">Paquetes y servicios modulares, con entregables y tiempos definidos.</p>
+          <div class="hero-actions">
+            <a class="btn" href="contact.html"><i class="bi bi-file-earmark-text"></i> Pedir propuesta</a>
+            <a class="btn btn--ghost" href="#catalogo"><i class="bi bi-arrow-down"></i> Ver catálogo</a>
+          </div>
+        </div>
+        <div class="page-hero__media">
+          <img src="servicios.jpg" alt="Imagen de servicios (reemplazable)" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="catalogo">
+      <div class="container">
+        <div class="section__head">
+          <h2>Catálogo</h2>
+          <p>Elegí el servicio y contanos tu rubro/volumen. Ajustamos el alcance.</p>
+        </div>
+
+        <div class="services-grid">
+          <article class="service" id="contabilidad">
+            <div class="service__icon"><i class="bi bi-journal-text"></i></div>
+            <h3>Contabilidad mensual</h3>
+            <p>Registro de operaciones, conciliaciones, balances y libros.</p>
+            <ul>
+              <li>Conciliación bancaria</li>
+              <li>Estados financieros</li>
+              <li>Control documental</li>
+            </ul>
+          </article>
+
+          <article class="service" id="impuestos">
+            <div class="service__icon"><i class="bi bi-receipt-cutoff"></i></div>
+            <h3>Impuestos y declaraciones</h3>
+            <p>Determinación y presentación de obligaciones según calendario.</p>
+            <ul>
+              <li>Liquidaciones periódicas</li>
+              <li>Revisión de comprobantes</li>
+              <li>Soporte ante requerimientos</li>
+            </ul>
+          </article>
+
+          <article class="service" id="auditoria">
+            <div class="service__icon"><i class="bi bi-search"></i></div>
+            <h3>Auditoría y control interno</h3>
+            <p>Diagnóstico de procesos, riesgos y recomendaciones.</p>
+            <ul>
+              <li>Hallazgos y plan de mejora</li>
+              <li>Procedimientos y políticas</li>
+              <li>Buenas prácticas</li>
+            </ul>
+          </article>
+
+          <article class="service">
+            <div class="service__icon"><i class="bi bi-people"></i></div>
+            <h3>Nómina y RR.HH.</h3>
+            <p>Gestión de sueldos, planillas y documentación laboral.</p>
+            <ul>
+              <li>Liquidación de salarios</li>
+              <li>Recibos y archivos</li>
+              <li>Asesoría laboral básica</li>
+            </ul>
+          </article>
+
+          <article class="service">
+            <div class="service__icon"><i class="bi bi-cash-coin"></i></div>
+            <h3>Consultoría financiera</h3>
+            <p>Presupuestos, flujo de caja e indicadores para crecer.</p>
+            <ul>
+              <li>Cashflow</li>
+              <li>KPIs</li>
+              <li>Planeamiento</li>
+            </ul>
+          </article>
+
+          <article class="service">
+            <div class="service__icon"><i class="bi bi-file-earmark-check"></i></div>
+            <h3>Constitución y trámites</h3>
+            <p>Apoyo en formalización y organización administrativa.</p>
+            <ul>
+              <li>Inscripciones y actualizaciones</li>
+              <li>Documentación</li>
+              <li>Guía de procesos</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="band">
+          <div>
+            <h3>¿Cuál servicio necesitás?</h3>
+            <p>Completá el formulario y se enviará a WhatsApp con tus datos.</p>
+          </div>
+          <a class="btn" href="contact.html"><i class="bi bi-whatsapp"></i> Cotizar por WhatsApp</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <div class="brand brand--footer">
+            <img class="brand__mark" src="Logocompleto.png" alt="Auditax" />
+            <div class="brand__text">
+              <!--
+              <span class="brand__name">Auditax</span>
+              <span class="brand__tag">Contabilidad · Impuestos · Auditoría</span>
+              -->
+            </div>
+          </div>
+          <p class="footer__about">Conozcanos más, visitanos en nuestras redes sociales y consulta nuestros servicios.</p>
+          <div class="social" aria-label="Redes sociales">
+            <a class="social__btn" href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a class="social__btn" href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+            <a class="social__btn" href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+            <a class="social__btn" href="#" aria-label="WhatsApp" id="footerWhatsApp"><i class="bi bi-whatsapp"></i></a>
+          </div>
+        </div>
+
+        <div>
+          <h4>Enlaces rápidos</h4>
+          <ul class="footer__links">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="about.html">Sobre Nosotros</a></li>
+            <li><a href="services.html">Servicios</a></li>
+            <li><a href="contact.html">Contáctanos</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Enlaces extra</h4>
+          <ul class="footer__links">
+            <li><a href="mission-vision.html#mission">Misión</a></li>
+            <li><a href="mission-vision.html#vision">Visión</a></li>
+            <li><a href="politicas.html">Política de privacidad</a></li>
+            <li><a href="terminos.html">Términos y condiciones</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Info de contacto</h4>
+          <ul class="footer__contact">
+            <li><i class="bi bi-telephone"></i> <a href="+595 974 960 690">+595 974 960 690 |691|692</a></li>
+            <li><i class="bi bi-envelope"></i> <a href="mailto:recepcion1@auditax.com.py">recepcion1@auditax.com.py</a></li>
+            <li><i class="bi bi-globe"></i> <a href="https://auditax.com.py" target="_blank" rel="noopener">auditax.com.py</a></li>
+            <li><i class="bi bi-geo-alt"></i> Asunción, Paraguay</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <span>© <span id="year"></span> Auditax. Todos los derechos reservados.</span>
+        <span class="credits"><strong>Focus Advisers Systems ©</strong></span>
+      </div>
+    </div>
+  </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
